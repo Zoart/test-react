@@ -1,10 +1,93 @@
 .App {
+  margin: 3em auto;
+  padding: 0;
+  width: 41em;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222A;
+  margin: 0;
+  padding: 0;
+  height: 7em;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+.logo__png {
+  width: 2em;
+  margin: 0;
+  padding: 0 .5em 0 2em;
+  align-self: center;
+}
+
+.header__title {
+  color: #61DAFB;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.header__project-number {
+  color: white;
+  margin: 0 2em 0 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.content {
+  background-color: #282D35;
+  color: white;
+  margin: 0;
+  padding: 1.3em .5em 6em 0;
+  display: flex;
+  
+}
+
+.content__image {
+  width: 10em;
+  height: 20em;
+  margin: 0 0 0 -15em;
+  padding: 8em 0 0 0;
+  z-index: 0;
+  position: relative;
+  align-self: center;
+}
+
+.content__title {
+  margin: 0 0 .7em 1em;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2.7em;
+  position: relative;
+  z-index: 1;
 }
 
 .fact-list {
-
+  margin: 0 0 0 4em;
+  padding: 0;
+  width: 75%;
+  position: relative;
+  z-index: 1;
 }
 
 .fact-list__item {
-  text-decoration: aqua;
+  margin: 0 0 0 1.5em;
+  padding: .5em 0;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.fact-list__item::marker {
+  color: #61DAFB;
+  font-size: 2.5rem;
 }
